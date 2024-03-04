@@ -1,5 +1,5 @@
-from salon.asignatura import Asignatura
-from salon.grupo import Grupo
+from classroom.asignatura import Asignatura
+from classroom.grupo import Grupo
 
 def testConstructorAsignatura():
     asignatura1 = Asignatura("Vision por Computador")
