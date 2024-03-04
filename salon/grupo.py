@@ -3,7 +3,7 @@ from salon.asignatura import Asignatura
 class Grupo:
     grado = "Grado 12"
 
-    def _init_(self, grupo="grupo predeterminado", asignaturas=None, estudiantes = None):
+    def __init__(self, grupo="grupo predeterminado", asignaturas=None, estudiantes = None):
         self._grupo = grupo
         self._asignaturas = asignaturas or []
         self.listadoAlumnos = estudiantes or []
@@ -22,7 +22,7 @@ class Grupo:
             lista.append(alumno)
             self.listadoAlumnos += lista
 
-    def _str_(self):
+    def __str__(self):
         return "Grupo de estudiantes: " + self._grupo
 
     @ classmethod

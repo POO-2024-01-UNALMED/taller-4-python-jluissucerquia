@@ -1,8 +1,8 @@
 class Asignatura:
 
-    def _init_(self, nombreAsignatura, salon = "Remoto"):
+    def __init__(self, nombreAsignatura, salon = "remoto"):
         self._nombreAsignatura = nombreAsignatura
         self._salon = salon
 
-    def _str_(self):
+    def __str__(self):
         return self._nombreAsignatura + "" + self._salon
