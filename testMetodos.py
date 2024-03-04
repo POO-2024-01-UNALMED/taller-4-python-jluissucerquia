@@ -1,5 +1,5 @@
-from classroom.asignatura import Asignatura
-from classroom.grupo import Grupo
+from salon.asignatura import Asignatura
+from salon.grupo import Grupo
 
 def testMetodosAsignatura():
     asignatura1 = Asignatura("Vision por Computador")
