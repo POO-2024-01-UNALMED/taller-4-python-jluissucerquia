@@ -22,7 +22,7 @@ class Grupo:
             lista.append(alumno)
             self.listadoAlumnos += lista
 
-    def __str__(self):
+    def _str_(self):
         return "Grupo de estudiantes: " + self._grupo
 
     @ classmethod
